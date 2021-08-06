@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+    font-family: 'Open Sans'
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #666;
+    background-color: #538fcda1;
+}
+
+h1, h2, h3 {
+    color: #4b4b4b;
+}
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff5e;
+    padding: 10px;
+    border: solid 0px #eee;
+    border-radius: 10px;
+    display: table;
+    box-shadow: 0px 16px 36px 0px;
+}
+table {
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    font-size: .9em;
+    font-weight: normal;
+    border-right: 1px solid #fff;
+}
+th {
+    background: #eee;
+    white-space: nowrap;
+}
+td:first-child {
+    color: royalblue;
+    white-space: nowrap;
+}
+p, td {
+    line-height: 1.5;
+}
+p {
+    margin-left: 40%;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-left: 32%;
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inline-code {
+    padding: 1px 5px;
+    background: #eee;
+    border-radius: 2px;
+}
+pre {
+    margin: 10px 0;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 10px;
+    line-height: 18px;
+    background: #edf3f8;
+    font-size: 14px;
+}
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+button {
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+}
+button.info {
+    background: #538fcd;
+    color: #fff;
+    border-radius: 16px;
+}
+.area-buttons {
+    margin: 10px;
+    text-align: center;
+}
+.info-content {
+    display: inline-block;
+    margin: 1px;
+    width: 1000px;
+}
+.info-content h1 {
+    margin: 0px;
+    font-size: 24px;
+}
+.atividade {
+    font-size: 24px;
+}
+.vanilla-calendar {
+    display: table-footer-group;
+}
+footer {
+    margin-left: 46%;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
